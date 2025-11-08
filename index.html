@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio – Jeylin Marifer Maldonado Diaz</title>
+  <meta name="description" content="Portafolio de proyectos de Jeylin Marifer Maldonado Diaz: desarrollo web, Java, redes y más.">
+  <link rel="icon" href="/portafolio-jeylin-vite-less/assets/favicon-l-HLKNAy.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- Vite importará el LESS y lo convertirá a CSS en el build -->
+
+  <style>
+    .light body, .light { background: linear-gradient(180deg, #f7fafc, #edf2f7) !important; color:#101827 !important;}
+    .light .card{ background:#fff; border-color:#e5e7eb; }
+    .light .header{ background: rgba(255,255,255,.7); }
+    .light .nav a{ color:#374151; }
+  </style>
+  <script type="module" crossorigin src="/portafolio-jeylin-vite-less/assets/index-Bpn1hOTm.js"></script>
+  <link rel="stylesheet" crossorigin href="/portafolio-jeylin-vite-less/assets/index-BC7uQpUR.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="container nav" aria-label="Navegación principal">
+      <div class="brand">
+        <img src="/portafolio-jeylin-vite-less/assets/profile-1iMt-VwI.jpg" alt="Foto de perfil de Jeylin">
+        <span class="title">Jeylin M. Maldonado • Portafolio</span>
+      </div>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#sobre-mi">Sobre mí</a>
+      <a href="#contacto">Contacto</a>
+      <div class="spacer"></div>
+      <button id="themeToggle" class="theme-btn" aria-label="Cambiar tema">☀️ Modo claro</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div>
+        <h1>Desarrolladora en formación • ICC UNICAH</h1>
+        <p>Construyo sitios web limpios, rápidos y accesibles. Me apasionan Java/NetBeans, Android Studio, SQL Server y redes (Cisco Packet Tracer).</p>
+        <div class="badges">
+          <span class="badge">HTML5</span>
+          <span class="badge">CSS3</span>
+          <span class="badge">JavaScript</span>
+          <span class="badge">Java</span>
+          <span class="badge">SQL Server</span>
+          <span class="badge">Packet Tracer</span>
+        </div>
+      </div>
+      <div class="card">
+        <div class="bio">
+          <img src="/portafolio-jeylin-vite-less/assets/profile-1iMt-VwI.jpg" alt="Foto de perfil">
+          <div>
+            <h3 style="margin:.25rem 0 .5rem">Jeylin Marifer Maldonado Diaz</h3>
+            <p style="margin:0; color:#9ca3af">Estudiante de Ingeniería en Ciencias de la Computación – UNICAH</p>
+            <p style="margin:.5rem 0 0; color:#9ca3af">TGU, Honduras • Disponible para prácticas y proyectos.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="proyectos">
+      <h2>Proyectos destacados</h2>
+      <div class="grid projects">
+        <article class="card" aria-labelledby="p1-title">
+          <div class="thumb" role="img" aria-label="Sitio Farmacia SaludTotal">Farmacia SaludTotal</div>
+          <h3 id="p1-title">Landing web para farmacia</h3>
+          <p>HTML/CSS/JS: hero, catálogo y formulario de contacto. Enfoque responsive y accesible.</p>
+          <a href="#" aria-label="Ver detalles de Farmacia SaludTotal">Ver más →</a>
+        </article>
+        <article class="card" aria-labelledby="p2-title">
+          <div class="thumb" role="img" aria-label="Plan de Estudio ICC">Plan de Estudio ICC</div>
+          <h3 id="p2-title">Sitio interactivo de plan de estudio</h3>
+          <p>Árbol interactivo de asignaturas con filtros y búsqueda. Vanilla JS.</p>
+          <a href="#" aria-label="Ver detalles del Plan de Estudio">Ver más →</a>
+        </article>
+        <article class="card" aria-labelledby="p3-title">
+          <div class="thumb" role="img" aria-label="Proyecto Banco Atlántida">Banco Atlántida</div>
+          <h3 id="p3-title">Red jerárquica – Packet Tracer</h3>
+          <p>Topología multi-sede con EIGRP, VLANs y ACLs. Documentación completa.</p>
+          <a href="#" aria-label="Ver detalles del proyecto de red">Ver más →</a>
+        </article>
+        <article class="card" aria-labelledby="p4-title">
+          <div class="thumb" role="img" aria-label="App Android básica">Android App</div>
+          <h3 id="p4-title">Multipantalla con conversor de moneda</h3>
+          <p>3 actividades, WebView y conversor HNL ⇄ USD/EUR con validaciones.</p>
+          <a href="#" aria-label="Ver detalles de app Android">Ver más →</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section container" id="sobre-mi">
+      <h2>Sobre mí</h2>
+      <div class="card">
+        <p>Hola, soy Jeylin. Me gusta convertir problemas reales en soluciones simples con buen diseño y código claro. Disfruto trabajar con Java, bases de datos y redes, y estoy construyendo un perfil full‑stack.</p>
+        <ul>
+          <li>⚙️ Backend: Java (NetBeans), SQL Server</li>
+          <li>🖥️ Frontend: HTML, CSS, JavaScript</li>
+          <li>🌐 Redes: Cisco Packet Tracer (EIGRP, OSPF, VLANs, ACLs)</li>
+          <li>📚 En curso: Sistemas Operativos, Desarrollo Web, Microcontroladores</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section container" id="contacto">
+      <h2>Contacto</h2>
+      <div class="card">
+        <form id="contactForm" novalidate>
+          <div>
+            <label for="name">Nombre</label>
+            <input id="name" name="name" placeholder="Tu nombre">
+          </div>
+          <div>
+            <label for="email">Correo</label>
+            <input id="email" name="email" type="email" placeholder="tucorreo@ejemplo.com">
+          </div>
+          <div>
+            <label for="message">Mensaje</label>
+            <textarea id="message" name="message" rows="4" placeholder="¿Cómo puedo ayudarte?"></textarea>
+          </div>
+          <button class="primary" type="submit">Enviar mensaje</button>
+        </form>
+        <div id="toast" role="status" aria-live="polite" style="
+          position:fixed; bottom:18px; right:18px; background:#0c1426; color:#e5e7eb; padding:12px 14px; border:1px solid #1e293b; border-radius:10px; opacity:0; transform:translateY(10px); transition: all .25s ease;">Listo</div>
+        <style>#toast.show{ opacity:1; transform:translateY(0); }</style>
+      </div>
+      <p class="muted" style="color:#9ca3af; margin-top:10px;">También puedes escribirme a: 
+        <a href="mailto:jeylinmldnd@gmail.com">jeylinmldnd@gmail.com</a> · 
+        <a href="mailto:jeylinmaldonado57@gmail.com">jeylinmaldonado57@gmail.com</a>
+      </p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">© 2025 • Portafolio de Jeylin • Hecho con HTML, CSS y JS.</div>
+  </footer>
+
+</body>
+</html>
